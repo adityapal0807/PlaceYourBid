@@ -71,9 +71,9 @@ def create_auction(request):
         item = Item()
         item.title=request.POST['title']
         item.description=request.POST['description']
-        item.photo=request.POST['image']
+        item.photo=request.POST['image_upload']
         if item.photo in request.POST:
-            item.photo = request.FILES['image']
+            item.photo = request.FILES['image_upload']
         item.start_price=request.POST['price']
         item.seller = request.user
         item.save()
