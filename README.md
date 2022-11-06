@@ -33,15 +33,15 @@ An open place for bidding on products and creating bids with features like user 
 
 ### How to Run This on Local Website
 
-      ### To deploy this project run
+### To deploy this project run
 
-      ```bash
-        $ pip install -r requirements.txt
-      ```
+```bash
+  $ pip install -r requirements.txt
+```
 
-      ```bash
-        $ python manage.py runserver
-      ```
+```bash
+  $ python manage.py runserver
+```
 
 
 Woohoo!! Now the website is running on your local
