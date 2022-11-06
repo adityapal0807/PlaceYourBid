@@ -44,5 +44,5 @@ An open place for bidding on products and creating bids with features like user 
       ```
 
 
-Woohoo!! Now the website is running on your local
+      Woohoo!! Now the website is running on your local
 
